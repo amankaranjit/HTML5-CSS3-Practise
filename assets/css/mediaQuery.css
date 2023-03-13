@@ -1,0 +1,41 @@
+@media (max-width: 576px) {
+  .menus ul {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .menus ul li {
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+
+  .services__wrapper .row .col-md-4 {
+    margin-bottom: 10px;
+  }
+  .newarrivals__wrapper {
+    background-image: none !important;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .menus ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .newarrivals__wrapper {
+    background-image: none !important;
+  }
+
+  .menu-items {
+    padding-bottom: 20px;
+  }
+  .menu-items h3 {
+    padding-bottom: 0px;
+  }
+  .input-group {
+    display: none;
+  }
+}

@@ -1,0 +1,24 @@
+.contact__wrapper {
+  margin: 48px 0px;
+  text-align: center;
+}
+
+.contact__wrapper form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+form input[type='text'] {
+  width: 100%;
+  padding: 16px;
+  display: block;
+  margin: 36px 0px;
+}
+footer input[type='text'] {
+  margin-bottom: 0px;
+}
+textarea {
+  width: 100%;
+  margin: 36px 0px;
+  padding: 16px;
+  display: block;
+}
